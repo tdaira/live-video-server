@@ -1,0 +1,10 @@
+log_level = "info"
+
+[server]
+port = ":80"
+connect_timeout = 30
+keep_alive = 30
+metrics_port = 8080
+
+[source]
+video_path = "video"
